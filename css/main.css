@@ -1,0 +1,292 @@
+
+
+/*** GRID ***/
+html,body {
+    background-color: #e2e2e2;
+    color: #605f5e;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 33.333%;
+    margin: 0 auto;
+    float: left;
+}
+
+#about, #work, #contact, #fun, #skills {
+    height: 600px;
+}
+
+/** HEADER **/
+header {
+    background: #247BA0;
+    height: 650px;
+    color: #e2e2e2;
+}
+
+header .brand-header { 
+    padding: 20px 40px;
+    font-size: 30px;
+    float: left;
+}
+
+header .avatar {
+    border-radius: 500px;
+    border: 3px solid white;
+    height: 50px;
+}
+
+header .sub-header {
+    font-size: 3em;
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+header .sub-header span {
+    font-family: "Lobster", sans-serif;
+    font-size: 5em;
+    width:  100%;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #247BA0;
+}
+
+nav {
+    float: right; 
+    padding: 20px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    color: #f8f8f8;
+    padding-left: 30px;
+}
+
+/********
+ COLORS
+ ------
+ Color #1: #247BA0 - light blue
+ Color #2: #605F5E - gray
+ Color #3: #FB3640 - red
+ 0A2463 - dark blue
+ E2E2E2 - white tone
+
+***************/
+
+div.primary-color {
+    background: #247BA0;
+}
+
+div.mute-color {
+    background: #605f5e;
+}
+
+div.attention-color {
+    background: #fb3640;
+}
+
+div.secondary-color {
+    background: #0a2463;
+}
+
+
+/**** ABOUT ****/
+#about .full-width {
+    padding: 80px 0;
+    clear: both;
+    
+}
+
+#about h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 80px;
+    color: #605f5e;
+    text-align: center;
+}
+ 
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+}
+
+/**** SKILLS ****/
+#skills .full-width {
+    padding: 80px 0;
+    background: #f8f8f8;
+    clear: both;
+}
+
+#skills h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 80px;
+    color: #605f5e;
+    text-align: center;
+}
+
+#skills P {
+    font-size: 23px;
+    text-align: center;
+    margin-top: -45px;
+    padding: 5px 75px;
+    line-height: 50px;
+    font-style: italic;
+    color: #7f7f7f;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+
+#skills ul li {
+    display: inline-block;
+    padding: 30px 50px;
+    margin: 10px auto;
+}
+
+#skills ul li img {
+    height: 100px;
+}
+
+/**** WORK SECTION ****/
+#work {
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 80px 0;
+    clear: both;
+    
+}
+ 
+
+#work h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 80px;
+    color: #605f5e;
+    text-align: center;
+}
+ 
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+#work ul {
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+
+#work ul li {
+    display: inline-block;
+    padding: 5px 5px;
+    background: #f8f8f8;
+    margin: 10px 30px 30px 0;
+    border-radius: 5px;
+    box-shadow: 1px 0 5px #7f7f7f;
+}
+
+#work ul li img {
+    height: 150px;
+}
+
+#work ul li p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a2463;
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*** CONTACT SECTION ****/
+#contact {
+    background: #222;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#email-header{
+    font-size: 32px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
